@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+    <script>
+        console.log("Hello World")
+        
+        // Object Literal 
+        student1 = {
+            sid: 1,
+            first_name: "Gowtham",
+            last_name: "Kanga",
+            address: {
+                street_num: 123, 
+                city: "Toronto"
+            }
+        }
+
+        console.log(student1)
+        console.log(typeof student1)
+
+        let x = 100
+        var y = 10
+        console.log(`O : ${x} - ${y}`)
+        const z = 3000
+        function Hello(){
+            let x = 200
+            console.log("Hello, Gowtham" + x)
+            y = 20
+            console.log("Y in : " + y)
+
+            const z = 4000
+        }
+
+        Hello()
+
+        Hello.prototype.greet = function(){
+            console.log("From Prototype Greet()")
+        }
+
+        Hello.prototype.x = 1000
+
+        var h1 = new Hello()
+
+        h1.greet()
+
+        console.log(h1)
+
+
+        console.log(`O : ${x}`)
+        console.log("YY out : " + y)
+
+        console.log(typeof sayHello)
+
+        f1 = function(){
+            console.log("Hello, F1")
+        }
+
+        
+        const a = 100
+        console.log(a) 
+
+        a1 = "Hello"
+        console.log(a1) 
+
+
+        class Student{
+
+            constructor(sid, name){
+                this.sid= sid
+                this.name = name
+
+            }
+            greet(){
+                console.log("Greet from Student")
+            }
+
+            display(){
+                console.log(`${this.sid} - ${this.name}`)
+            }
+        }
+
+        let s1 = new Student()
+        s1.greet()
+        s1.display()
+
+
+    </script>
+</head>
+<body>
+    <h1>Day One - Lab Code</h1>
+</body>
+</html>

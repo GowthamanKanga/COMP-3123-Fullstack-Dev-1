@@ -1,0 +1,17 @@
+Software InstallationSoftware Installation
+
+Install node.js on your local machine (https://nodejs.org/en/download/)
+Install Visual Code editor or any other editors of your choice (https://code.visualstudio.com/download)
+
+Note: MongoDB and Express will be installed whenever required
+
+
+______________________
+To Check Node Version 
+______________________
+
+$node --version
+
+$npm --version 
+
+$npx --version 
